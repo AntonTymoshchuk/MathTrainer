@@ -5,7 +5,7 @@ from time import sleep
 
 if __name__ == '__main__':
     system('clear')
-    print('Тренер счёта в уме\n')
+    print('Тренер счета в уме\n')
 
     print('Размер числа А : ', end='')
     number_a_max_size = int(input())
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     while True:
         system('clear')
-        print('Тренер счёта в уме\n')
+        print('Тренер счета в уме\n')
 
         number_a = Random().randint(1, number_a_max_value)
         number_b = Random().randint(1, number_b_max_value)
@@ -68,7 +68,7 @@ if __name__ == '__main__':
             break
 
         system('clear')
-        print('Тренер счёта в уме\n')
+        print('Тренер счета в уме\n')
 
         answer = float(answer_str)
         if answer == result:
