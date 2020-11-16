@@ -36,6 +36,7 @@ if __name__ == '__main__':
         number_a = Random().randint(1, number_a_max_value)
         number_b = Random().randint(1, number_b_max_value)
         action = ['плюс', 'минус', 'умножить на',
+                  'разделить на', 'умножить на',
                   'разделить на'][Random().randint(0, 3)]
 
         swap_numbers = bool(Random().randint(0, 1))
